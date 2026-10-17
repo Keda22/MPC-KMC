@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#151821" android:padding="10dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="A" android:textColor="#FF3B3B" android:gravity="center" android:textStyle="bold"/>
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="B" android:textColor="#8A8D93" android:gravity="center"/>
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="C" android:textColor="#8A8D93" android:gravity="center"/>
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="D" android:textColor="#8A8D93" android:gravity="center"/>
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="E" android:textColor="#8A8D93" android:gravity="center"/>
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="F" android:textColor="#8A8D93" android:gravity="center"/>
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="G" android:textColor="#8A8D93" android:gravity="center"/>
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="H" android:textColor="#8A8D93" android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="8dp">
+        <Button android:id="@+id/btnNoteRepeat" android:layout_width="0dp" android:layout_height="44dp" android:layout_weight="1" android:layout_margin="3dp" android:text="NOTE REPEAT" android:textSize="9sp" android:background="@drawable/func_btn_bg"/>
+        <Button android:id="@+id/btnHalfLevel" android:layout_width="0dp" android:layout_height="44dp" android:layout_weight="1" android:layout_margin="3dp" android:text="HALF LEVEL" android:textSize="9sp" android:background="@drawable/func_btn_bg"/>
+        <Button android:id="@+id/btn16Level" android:layout_width="0dp" android:layout_height="44dp" android:layout_weight="1" android:layout_margin="3dp" android:text="16 LEVEL" android:textSize="9sp" android:background="@drawable/func_btn_bg"/>
+        <Button android:id="@+id/btnErase" android:layout_width="0dp" android:layout_height="44dp" android:layout_weight="1" android:layout_margin="3dp" android:text="ERASE" android:textSize="9sp" android:background="@drawable/func_btn_bg"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="10dp" android:gravity="center_vertical">
+        <Button android:id="@+id/bankA" android:layout_width="72dp" android:layout_height="34dp" android:text="BANK A" android:textSize="10sp" android:layout_margin="3dp"/>
+        <Button android:id="@+id/bankB" android:layout_width="72dp" android:layout_height="34dp" android:text="BANK B" android:textSize="10sp" android:layout_margin="3dp"/>
+        <Button android:id="@+id/bankC" android:layout_width="72dp" android:layout_height="34dp" android:text="BANK C" android:textSize="10sp" android:layout_margin="3dp"/>
+        <TextView android:id="@+id/midiStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MIDI: Desconectado" android:textColor="#FFCC00" android:layout_marginStart="10dp" android:textSize="11sp"/>
+    </LinearLayout>
+    <GridLayout android:id="@+id/padGrid" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:columnCount="4" android:rowCount="4" android:layout_marginTop="14dp" android:useDefaultMargins="true"/>
+</LinearLayout>
