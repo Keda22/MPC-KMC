@@ -13,5 +13,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "MPC MIDI"
+rootProject.name = "KEVIN MPC JAMJUM v2"
 include ':app'
